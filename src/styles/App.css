@@ -1,1 +1,18 @@
 
+.parent{
+    background-color: purple;
+    /* height: 200px; */
+    max-height: 400px;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.child{
+    background-color: brown;
+    /* height: 100px; */
+    max-height: 300px;
+    width: 600px;
+}

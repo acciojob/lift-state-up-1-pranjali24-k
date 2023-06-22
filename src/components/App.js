@@ -1,12 +1,12 @@
 
-import React from "react";
+import React from 'react';
 import './../styles/App.css';
-
+import Parent from "./Parent"
 const App = () => {
   return (
-    <div>
-        {/* Do not remove the main div */}
-    </div>
+        <div>
+          <Parent></Parent>
+        </div>
   )
 }
 
